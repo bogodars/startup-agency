@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "postbuild": "next-sitemap",
-    "start": "node_modules/next/dist/bin/next start -p $PORT"
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
